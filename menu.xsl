@@ -7,6 +7,9 @@
 					<th>Select</th>
 					<th>Item</th>
 					<th>Price</th>
+					<th>Price</th>
+					<th>Price</th>
+					<th>Color</th>
 				</tr>
 			</thead>
 			<tbody>
