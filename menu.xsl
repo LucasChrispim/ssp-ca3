@@ -7,8 +7,7 @@
 					<th>Select</th>
 					<th>Item</th>
 					<th>Price</th>
-					<th>Price</th>
-					<th>Price</th>
+					<th>Size</th>
 					<th>Color</th>
 				</tr>
 			</thead>
@@ -32,6 +31,12 @@
 							</td>
 							<td align="right">
 								<xsl:value-of select="price" />
+							</td>
+							<td>
+								<xsl:value-of select="Size" />
+							</td>
+							<td align="right">
+								<xsl:value-of select="Size" />
 							</td>
 						</tr>
 					</xsl:for-each>
