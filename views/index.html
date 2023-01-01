@@ -31,11 +31,16 @@
                     <div id="Menu" class="col-lg-4 order-5 order-1">
                         <form enctype="aplication/json" action="/post/json" method="post">
                             <div class="form-group">
-                                <select class="form-control" name="sec_n">
+                                <select class="form-select" name="sec_n">
                                     <option value="0">Jordan</option>
                                     <option value="1">Adidas</option>
                                     <option value="2">Rebook</option>
                                 </select>
+                                <input class="form-control mt-3" type="text" name="Size"  placeholder="Size">
+                                <input class="form-control mt-3" type="text" name="Color"  placeholder="Color">
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+                                </div>
                             </div>
                         </form>
                         <div class="d-grid gap-2">
