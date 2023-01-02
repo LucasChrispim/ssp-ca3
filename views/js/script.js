@@ -25,7 +25,6 @@ function calculateBill(idMenuTable) {
     // return the price as a decimal number with 2 decimal places
     return Math.round(fBillTotal * 100.0) / 100.0;
 };
-
 // This function either turns on or off the row highlighting for decaf
 // items (depending on the value of bShowDecaf)
 function highlightDecaf(idTable, bShowDecaf) {
